@@ -74,7 +74,7 @@ public class ChannelActivity extends Activity implements OnClickListener, MyScro
 
 	private Intent userServiceIntent = null;
 	private boolean isBound = false;
-	//测试看看git有没改变
+
 	private InterpttService mService;
 	private UserService userService;
 	private Handler mHandler = new Handler();	//用于其他线程更新UI
