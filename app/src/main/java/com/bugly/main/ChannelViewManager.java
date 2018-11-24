@@ -508,6 +508,7 @@ public class ChannelViewManager implements OnClickListener, InterpttNestedListVi
 	private void scrollToChannel(Channel channel) {
 		if (channelAdapter==null || channelAdapter.channels==null) {
 			return;
+			//测试git3
 		}
 
 		int channelPosition = channelAdapter.channels.indexOf(channel);
