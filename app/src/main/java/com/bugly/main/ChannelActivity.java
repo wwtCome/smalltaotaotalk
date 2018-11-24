@@ -63,7 +63,7 @@ import static com.kylindev.pttlib.service.InterpttService.ConnState.CONNECTION_S
 
 public class ChannelActivity extends Activity implements OnClickListener, MyScrollScreen.OnScreenChangeListener {
 
-	//测试git2
+	//android.injected.build.model.only.versioned = 3
 	private Intent userServiceIntent = null;
 	private boolean isBound = false;
 
