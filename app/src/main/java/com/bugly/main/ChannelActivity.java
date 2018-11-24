@@ -1,25 +1,19 @@
 package com.bugly.main;
 
-import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
-import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.util.DisplayMetrics;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -41,9 +35,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.bugly.database.SqlTestActivity;
 import com.bugly.utils.AppConstants;
 import com.bugly.R;
 import com.bugly.utils.AndroidUtils;
@@ -72,6 +63,7 @@ import static com.kylindev.pttlib.service.InterpttService.ConnState.CONNECTION_S
 
 public class ChannelActivity extends Activity implements OnClickListener, MyScrollScreen.OnScreenChangeListener {
 
+	//测试git
 	private Intent userServiceIntent = null;
 	private boolean isBound = false;
 
